@@ -35,3 +35,6 @@ end
 def find_a (array)
   array.select { |e| e[0]=="a" }
 end
+
+def sum_array (array)
+  array.inject { |sum,n| sum +n}
