@@ -41,10 +41,10 @@ def sum_array (array)
 end
 
 def add_s (array)
-  array.each_with_index.collect{|element, index| 
-    if index != 1 
-      element = element + "s" 
-    else 
+  array.each_with_index.collect{|element, index|
+    if index != 1
+      element = element + "s"
+    else
       element=element
     end
     }
